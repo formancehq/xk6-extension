@@ -1,4 +1,4 @@
-module github.com/formance/k6-openapi3-extension
+module github.com/numary/k6-openapi3-extension
 
 go 1.18
 
