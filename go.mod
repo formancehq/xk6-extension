@@ -1,8 +1,11 @@
-module github.com/numary/k6-openapi3-extension
+module github.com/numary/xk6-extension
 
 go 1.18
 
+require go.k6.io/xk6 v0.7.0
+
 require (
+	github.com/Masterminds/semver/v3 v3.1.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.4.1-0.20201116162257-a2a8dda75c91 // indirect
 	github.com/dop251/goja v0.0.0-20220405120441-9037c2b61cbf // indirect
