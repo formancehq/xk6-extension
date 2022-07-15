@@ -10,7 +10,7 @@ func main() {
 		K6Version: "v0.39.0",
 		Extensions: []xk6.Dependency{
 			{
-				PackagePath: "github.com/numary/xk6-extension/k6_openapi3_extension",
+				PackagePath: "github.com/numary/xk6-extension",
 				Version:     "main",
 			},
 		},
