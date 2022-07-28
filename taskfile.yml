@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - xk6 build --with github.com/numary/k6-openapi3-extension=.
+  example:
+    cmds:
+    - yarn --cwd ./example build
+    - ./k6 run ./example/dist/test.js
